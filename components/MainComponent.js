@@ -27,7 +27,6 @@ const DirectoryNavigator = createStackNavigator(
 
 const AppNavigator = createAppContainer(DirectoryNavigator);
 
-
 class Main extends Component {
     render() {
         return (
