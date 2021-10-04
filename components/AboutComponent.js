@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { ScrollView, Text, View } from "react-native-gesture-handler";
 import { Card, ListItem } from 'react-native-elements';
 import { PARTNERS } from '../shared/partners';
-import { FlatList } from 'react-native';
+import { FlatList, View, Text, ScrollView } from 'react-native';
 
 function Mission({item}){
     if(item) {
